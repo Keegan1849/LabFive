@@ -1,5 +1,3 @@
-import com.sun.management.HotSpotDiagnosticMXBean;
-
 import java.net.SocketTimeoutException;
 import java.util.Scanner;
 public class Main {
