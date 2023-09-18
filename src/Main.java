@@ -1,11 +1,10 @@
-import java.net.SocketTimeoutException;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double price = 0.0;
-        double shipping = 0.0;
-        double totalPrice = 0.0;
+        double price;
+        double shipping;
+        double totalPrice;
 
         System.out.println("What is the price of your item? ");
         price = in.nextDouble();
