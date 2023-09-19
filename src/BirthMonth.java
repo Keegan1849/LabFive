@@ -7,9 +7,7 @@ public class BirthMonth {
 
         System.out.println("What is your birth month? ");
         int birthMonth = Integer.parseInt(in.nextLine());
-        if (birthMonth > 12){
-            System.out.println("That is an invalid age: " + birthMonth);
-        } else if (birthMonth  < 1) {
+        if (birthMonth > 12 && birthMonth > 1){
             System.out.println("That is an invalid age: " + birthMonth);
         } else {
             System.out.println("Your birth month is: " + birthMonth);
